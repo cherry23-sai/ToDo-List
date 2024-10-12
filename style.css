@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cadcfc;
+    margin: 0;
+}
+
+.app-container {
+    background-color: #00246b;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px gray;
+    width: 600px;
+    height: 350px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.task-input button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.task-input button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+li span {
+    flex: 1;
+}
+
+.task-actions button {
+    margin-left: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.task-actions .edit {
+    background-color: #ffc107;
+    color: white;
+}
+
+.task-actions .delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.task-actions .complete {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.task-actions .undo {
+    background-color: #2196F3;
+    color: white;
+}
+
+.task-timestamp {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 10px;
+}
+.pend{
+    border: 2px solid #cadcfc;
+    border-radius: 5%;
+    margin: 30px 5px;
+}
+.comp{
+    border: 2px solid #cadcfc;
+    border-radius: 5%;
+    margin: 30px 5px;
+}
